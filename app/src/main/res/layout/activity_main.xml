@@ -11,7 +11,7 @@
         android:layout_height="48dp"
         android:layout_above="@+id/tv_text"
         android:layout_centerInParent="true"
-        android:hint="Type something here"
+        android:hint="@string/type_something_here"
         android:textSize="16sp"
         android:textStyle="italic" />
 
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="This text will change"
+        android:text="@string/this_text_will_change"
         android:textSize="16sp" />
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_text"
         android:layout_centerInParent="true"
-        android:text="save" />
+        android:text="@string/save" />
 
     <Switch
         android:id="@+id/sw_switch"
@@ -37,6 +37,7 @@
         android:layout_height="48dp"
         android:layout_below="@+id/bt_button"
         android:layout_centerInParent="true"
-        android:text="switch" />
+        android:text="switch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 </RelativeLayout>
